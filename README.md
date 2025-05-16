@@ -36,7 +36,7 @@ The model uses a sequence-to-sequence (Seq2Seq) architecture enhanced by an atte
   - BLEU-3: 2.89
   - BLEU-4: 1.33
 
-![Training and Validation Loss](loss_plot.png)
+![Training and Validation Loss](image/loss_plot.png)
 
 ---
 
