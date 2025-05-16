@@ -23,7 +23,7 @@ The model uses a sequence-to-sequence (Seq2Seq) architecture enhanced by an atte
 - The **decoder** is a two-layer unidirectional GRU that generates the Bodo translation one token at a time.
 - A **Bahdanau attention mechanism** dynamically aligns the decoder with relevant encoder hidden states to improve translation accuracy.
 
-![Model Architecture](Image/model_architecture.png)
+![Model Architecture](Images/model_architecture.png)
 
 ---
 
@@ -36,7 +36,7 @@ The model uses a sequence-to-sequence (Seq2Seq) architecture enhanced by an atte
   - BLEU-3: 2.89
   - BLEU-4: 1.33
 
-![Training and Validation Loss](Image/loss_plot.png)
+![Training and Validation Loss](Images/loss_plot.png)
 
 ---
 
@@ -44,7 +44,7 @@ The model uses a sequence-to-sequence (Seq2Seq) architecture enhanced by an atte
 
 An easy-to-use interface allows users to input English sentences and receive Bodo translations in real-time using the trained model. This facilitates practical usage and testing of the translation system.
 
-![Translation Interface](Image/translation_interface.png)
+![Translation Interface](Images/translation_interface.png)
 
 ---
 
