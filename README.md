@@ -39,7 +39,7 @@ This project implements a **Neural Machine Translation (NMT)** system that trans
   - BLEU-3: 2.89
   - BLEU-4: 1.33
 
-![Training and Validation Loss](Language Processor/loss_plot.png)
+![Training and Validation Loss](loss_plot.png)
 
 ---
 
