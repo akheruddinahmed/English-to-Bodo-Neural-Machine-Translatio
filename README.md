@@ -58,18 +58,34 @@ This project implements a **Neural Machine Translation (NMT)** system that trans
 
 ## 🛠 Installation & Requirements
 
-### Prerequisites
+### 🔧 Prerequisites
 
 - Python 3.8+
-- PyTorch
-- NumPy
-- TorchText
-- NLTK
-- Matplotlib
+- pip (Python package manager)
+- Git
 - Jupyter Notebook
-- pickle
+- A modern system with:
+  - Minimum 8GB RAM
+  - (Optional) NVIDIA GPU with CUDA support for faster training
 
-### Setup
+---
 
-```bash
-pip install torch numpy nltk matplotlib torchtext
+### 📦 Python Dependencies
+
+| Package       | Purpose                                |
+|---------------|----------------------------------------|
+| `torch`       | Building and training neural networks  |
+| `torchtext`   | Text and vocabulary preprocessing      |
+| `numpy`       | Numerical operations                   |
+| `nltk`        | Tokenization and BLEU score calculation|
+| `matplotlib`  | Visualization of training loss         |
+| `pickle`      | Saving/loading tokenizers and models   |
+
+---
+
+### ✅ Setup Instructions
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/english-bodo-nmt.git
+   cd english-bodo-nmt
